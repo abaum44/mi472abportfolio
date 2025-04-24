@@ -198,7 +198,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 	background-size: cover;
 	background-position: center;
 	height: 890px;
-	background-image: url("../../stars wallpaper.jpg");
 }
 .welcome-hero:before{
     position:absolute;
@@ -234,8 +233,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     border-radius: 3px;
     text-transform: capitalize;
     color: #fff;
-    background: #b636ff;
-    border:1px solid #b636ff;
+    background: #f49d04;
+    border:1px solid #f49d04;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
@@ -243,7 +242,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
-.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
+.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#f49d04;border: 1px solid #9f00ff;}
 /*.header-text-area*/
 
 /*-------------------------------------
@@ -256,7 +255,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     font-size:18px;
     color: #3c4258;
     text-transform: initial;
-    line-height: 1.8;
+    line-height: 1.9;
 }
 .single-about-txt p {
     font-size: 16px;
@@ -529,7 +528,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 .experience-time-responsive{display: none;}
 /*-------------------------------------
-        8. Profiles
+        8. donations
 --------------------------------------*/
 .profiles {
     padding:  50px 0 100px;
