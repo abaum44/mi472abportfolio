@@ -12,7 +12,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
         
         <!-- title of site -->
-        <title>Alison Baumgartner  Portfolio</title>
+        <title>Alison Baumgartner Portfolio</title>
 
         <!-- For favicon png -->
 		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
@@ -791,41 +791,15 @@
 						<div class="col-md-offset-1 col-md-5 col-sm-6">
 							<div class="single-contact-box">
 								<div class="contact-form">
-									<form>
-										<div class="row">
-											<div class="col-sm-6 col-xs-12">
-												<div class="form-group">
-												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-											<div class="col-sm-6 col-xs-12">
-												<div class="form-group">
-													<input type="email" class="form-control" id="email" placeholder="Email*" name="email">
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-										<div class="row">
-											<div class="col-sm-12">
-												<div class="form-group">
-													<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-										<div class="row">
-											<div class="col-sm-12">
-												<div class="form-group">
-													<textarea class="form-control" rows="8" id="comment" placeholder="Message" ></textarea>
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-										<div class="row">
-											<div class="col-sm-12">
-												<div class="single-contact-btn">
-													<a class="contact-btn" href="#" role="button">submit</a>
-												</div><!--/.single-single-contact-btn-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-									</form><!--/form-->
+			        <h2>Get in Touch</h2>
+        <div id="contact-form">
+                <form action="https://formspree.io/f/movdqyna" method="POST">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Type your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
 								</div><!--/.contact-form-->
 							</div><!--/.single-contact-box-->
 						</div><!--/.col-->
